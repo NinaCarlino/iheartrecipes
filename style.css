@@ -3,25 +3,22 @@ body{
 }
 
 .top{
-	background-color: #FFF;
+	background: #FFF;
 	position: fixed;
-	padding-top: 20px;
+	z-index: 5;
 	border-bottom: 2px solid #999;
 }
-
+img.logo{
+	margin-top: 10px;
+}
 .tag-img, .center{
   text-align: center; 
 }
-
-.tag-img{
-	
-}
-
 .center{
 	padding: 10px 120px;
 }
 
-input[type="button"].login-btn{
+input[type="button"].signup-btn{
 	background:#FF976D;
 	color: #FFF;
 	border:0 1px 1px 0 solid #ccc;
@@ -31,12 +28,45 @@ input[type="button"].login-btn{
 	font-size: 18px;
 	text-decoration: none;
 	text-shadow: 0 1px rgba(153, 153, 153, .75);
-	float: right;
-	margin: 0;
+	float:right;
+	margin-bottom: 0px;
 }
 
-input[type="button"].fb-link{
+input[type="button"].fb-link {
 	background:#FFF;
 	color: #FF976D;
-	border: 3px solid #FF976D;
+	border: 2px solid #FF976D;
+}
+
+.media-top{
+	margin-top: 50px;
+}
+.media{
+	margin-bottom: 50px;
+}
+
+.container.main-footer{
+	background-image: url(images/bottom-tag.png);
+	text-align: center; 
+}
+
+.foot{
+	padding-top: 20px;
+}
+
+input[type="button"].btn{
+	background: #FFB99D;
+	color: #FFF;
+	border: 0px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	text-decoration: underline;
+
+}
+
+input[type="button"].btn:hover {
+	  color: #FF976D;
+	  background:#FFF;	
+	  border: 0px;
 }
