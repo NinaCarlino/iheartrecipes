@@ -3,6 +3,7 @@
   <head>
 	<meta charset="utf-8">
 	<title>i Heart Recipes</title>
+	<script type="text/javascript" src="javascript/jquery.js"></script>
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -22,7 +23,7 @@
 	    <div class="sixteen columns top">
 	  	  <img src="images/iheartlogo.png" class="logo">
 	  	  <!--<input type="button" value="Log in" class="login"></input>-->
-	  	  <input type="button" value="Sign up now" class="signup-btn"></input>
+	  	  <input type="button" value="Sign up now" class="signup-btn" onClick="scrollToTop()"></input>
 	    </div>
 	    <div class="sixteen columns tag-img">
 	    	<img src="images/tag.png">
@@ -34,7 +35,7 @@
 	      <h1>Find and collect <em style="color:#FF976D;">perfect</em> recipes all in one place!</h1>
 	    </div>
 	    <div class="twelve columns center">
-	        <input type="button" value="Signup with Facebook" class="fb-link"></input>
+	        <input type="button" value="Signup with Facebook" class="fb-link" id="facebook-btn"></input>
 	        <h3>or</h3>
 	    	<input type="email" placeholder="Email"></input>
 	    	<input type="password" placeholder="Password"></input>
@@ -61,6 +62,6 @@
 	    </div>
 	    
 	  </footer>
-
+    <script type="text/javascript" src="javascript/application.js"></script>
   </body>
 </html>
